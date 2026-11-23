@@ -71,6 +71,10 @@ h3 { font-size: 1.05rem; font-weight: 700; margin: 1.6em 0 0.2em; }
 
 .note { font-size: 0.9rem; color: var(--muted); }
 
+.figure { margin: 0.8em 0 0.4em; }
+.figure img { display: block; width: 100%; max-width: 680px; height: auto; border: 1px solid var(--rule); border-radius: 4px; }
+.figure figcaption { font-size: 0.85rem; color: var(--muted); margin-top: 0.4em; max-width: 680px; }
+
 .edu .school { font-weight: 700; margin: 1em 0 0.2em; }
 .edu ul, .plain { margin: 0; padding-left: 1.2em; }
 .plain li { margin-bottom: 0.5em; }
