@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Research | Dongwoo Won</title>
-  <meta name="description" content="Research projects of Dongwoo Won: physics-informed iPRC inference, early stopping for Poisson EM, identifiability of latent dynamics, and epidemic initial-condition estimation.">
+  <meta name="description" content="Research projects of Dongwoo Won: physics-informed iPRC inference, early stopping for Poisson EM, epidemic initial-condition estimation, and identifiability of latent dynamics.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -40,19 +40,19 @@
 
     <h2>Ongoing projects</h2>
     <div class="project">
-      <h3>Latent representation and dynamics identifiability</h3>
-      <p class="meta">With Y. Kim and W. Ha &middot; August 2026 &ndash; present &middot; Manuscript in preparation</p>
-      <p>We study when latent states and shared affine dynamics can be identified from nonlinear observations, using known targets and observed state&ndash;velocity laws from noisy multi-node interventions. Under full state coverage, separating targets, and full conditional noise variation, we prove identifiability up to coordinate scaling, given suitable links and a shared origin.</p>
-    </div>
-    <div class="project">
       <h3>Early stopping for Poisson EM</h3>
       <p class="meta">With W. Ha (advisor) &middot; March 2026 &ndash; present &middot; Manuscript in preparation</p>
-      <p>We developed finite-time KL bounds for full-step Poisson EM from a single histogram, separating source-approximation, acquisition-depth, iteration, and photon-count costs. I analyzed noise amplification across observation directions and the conditions under which early stopping outperforms sufficiently late EM iterates.</p>
+      <p>I proposed a spectral condition that separates data-informed from noise-amplifying directions. With W. Ha, I developed finite-time KL bounds for full-step Poisson EM from a single histogram, separating source-approximation, acquisition-depth, iteration, and photon-count costs. We then showed when early stopping outperforms sufficiently late iterates, in KL and parameter error.</p>
     </div>
     <div class="project">
       <h3>Initial-condition estimation in epidemic models (Hist-LQ)</h3>
       <p class="meta">Co-first author with D. Lim; with S. Choi, S. W. Park, and J. K. Kim &middot; December 2025 &ndash; present &middot; Manuscript in preparation</p>
       <p>I extended constant history priors to linear and quadratic ones (Hist-LQ) and implemented the estimator. I benchmarked it against eight methods on simulations and COVID-19/MERS data, using 10&ndash;14-day windows.</p>
+    </div>
+    <div class="project">
+      <h3>Latent representation and dynamics identifiability</h3>
+      <p class="meta">With Y. Kim and W. Ha &middot; August 2026 &ndash; present &middot; Manuscript in preparation</p>
+      <p>We proved identifiability of latent states and shared affine dynamics under nonlinear observations, using known targets and observed state&ndash;velocity laws from noisy multi-node interventions. The theorem assumes full state coverage, separating targets, and full conditional noise variation. Identification is up to coordinate scaling, given suitable links and a shared origin. I am now applying the result to single-cell perturbation data to learn which dynamics are identifiable.</p>
     </div>
 
     <h2>Earlier project</h2>
